@@ -30,5 +30,8 @@ public class MainActivity extends Activity {
     }    
 }
 ```
-this should not be code, I hope
+
+Notice how this class inherits from android.app.Activity ; your application will have at least one Activity; your activity class is defining two methods; for now, we'll focus on its `onCreate` method, which is called when the activity is created (it acts as somewhat of a special constructor).
+
+Each `Activity` usuallt has one `View` ; in the sample code, we call `setContentView` to set it to an XML-defined view (we'll talk about those later). 
 
