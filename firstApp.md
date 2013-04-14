@@ -1,14 +1,34 @@
-AndroidPeru
-===========
+#A simple Android Application
 
-Materials for the android course in Peru
+* open the eclipse/android adt, do create new project, select android application project
+* provide an application name, say _Converter_ , a project name, (notice it is autofilled) _Converter_ and package name (you can leave com.example, or use your name or domain name)
+* keep clicking next, finish at the end (we'll talk about the options later)
+* on the package explorer, select src, then your package, and your MainActivity.java class
 
-This is a test
+
+This is the default code generated
 ```java
-if(a>b) 
-	a=5;
-else
-	a=6;
+package com.example.converter;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }    
+}
 ```
 this should not be code, I hope
 
