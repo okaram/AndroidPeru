@@ -43,4 +43,42 @@ To keep my code simpler, I usually define a method, called `createMainView`, tha
 * `TextView`, which represents a non-editable (by the user) text widget (called a Label in many other GUI frameworks).
 * `EditText`, which is an editable text field.
 
+In the class, we will need to keep track of two things; the `EditText` where the user will type the temperature in farenheit, and the `TextView` where we will write the corresponding temperature in celsius; the other widgets can (and should :) be variables local to the method. So, we add the following variables to the Activity class:
+```java
+	EditText faren;
+	TextView celsius;
+```
 
+Since we're referencing new classes, Eclipse will detect we haven't imported them; we can right click on the error indicator next to each line, and Eclipse will give us options for fixing the errors, which is handy. Even easier, since we know we usually want to import the right class, pressing `Ctrl-Shit-O` will fix all imports :)
+
+Then we can define the following method:
+```java
+	View makeMainView()
+	{
+		LinearLayout l=new LinearLayout(this);
+		l.setOrientation(LinearLayout.VERTICAL);
+		TextView fLabel=new TextView(this);
+		fLabel.setText("Farenheit");
+		l.addView(fLabel);
+		
+		faren=new EditText(this);
+		l.addView(faren);
+		
+		Button b=new Button(this);
+		b.setText("Convert");
+		l.addView(b);
+		
+		celsius=new TextView(this);
+		l.addView(celsius);
+		return l;
+	}
+```
+
+And we need to replace the call to `setContentView` in the `onCreate` method for:
+```java
+		setContentView(makeMainView());
+```
+
+Now, running the app (Ctrl-F11) will show a screen like this one:
+
+![screenshot](converter.png)
