@@ -31,7 +31,16 @@ public class MainActivity extends Activity {
 }
 ```
 
-Notice how this class inherits from android.app.Activity ; your application will have at least one Activity; your activity class is defining two methods; for now, we'll focus on its `onCreate` method, which is called when the activity is created (it acts as somewhat of a special constructor).
+Notice how this class inherits from android.app.Activity ; your application will have at least one Activity; your activity class is defining two methods. For now, we'll focus on its `onCreate` method, which is called when the activity is created (it acts as somewhat of a special constructor).
 
-Each `Activity` usuallt has one `View` ; in the sample code, we call `setContentView` to set it to an XML-defined view (we'll talk about those later). 
+Each `Activity` usuallt has one `View` ; in the sample code, we call `setContentView` to set it to an XML-defined view (we'll talk about those later). We will change the method to set it to a different view.
+
+Although defining our views in XML is usually easier, I think it is better to do it first with code, to understand the basics, so we will create a simple container view, and add a few widgets.
+
+To keep my code simpler, I usually define a method, called `createMainView`, that creates (and returns) the View. For this simple application, we will use 3 kinds of views:
+* `LinearLayout`, which is a container view, which lays out its children either horizontally or vertically.
+* `Button`, which, surprisingly, represents a button on the screen.
+* `TextView`, which represents a non-editable (by the user) text widget (called a Label in many other GUI frameworks).
+* `EditText`, which is an editable text field.
+
 
