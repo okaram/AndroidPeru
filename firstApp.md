@@ -1,5 +1,11 @@
 #A simple Android Application
 
+We will develop a very simple android application, as illustrated below:
+![screenshot](converter.png)
+
+You have one text field, where you write a temperature in Farenheit, and a button for converting it; when pressing the button, the temperature in celsius degrees will be displayed.
+
+##Creating the project
 * open the eclipse/android adt, do create new project, select android application project
 * provide an application name, say _Converter_ , a project name, (notice it is autofilled) _Converter_ and package name (you can leave com.example, or use your name or domain name)
 * keep clicking next, finish at the end (we'll talk about the options later)
@@ -33,7 +39,9 @@ public class MainActivity extends Activity {
 
 Notice how this class inherits from android.app.Activity ; your application will have at least one Activity; your activity class is defining two methods. For now, we'll focus on its `onCreate` method, which is called when the activity is created (it acts as somewhat of a special constructor).
 
+##Adding our code
 Each `Activity` usuallt has one `View` ; in the sample code, we call `setContentView` to set it to an XML-defined view (we'll talk about those later). We will change the method to set it to a different view.
+
 
 Although defining our views in XML is usually easier, I think it is better to do it first with code, to understand the basics, so we will create a simple container view, and add a few widgets.
 
@@ -79,6 +87,23 @@ And we need to replace the call to `setContentView` in the `onCreate` method for
 		setContentView(makeMainView());
 ```
 
-Now, running the app (Ctrl-F11) will show a screen like this one:
+If we run the app (Ctrl-F11), it will show a screen like this one:
 
 ![screenshot](converter.png)
+
+The app will look reasonable, but it still doesn't do anything; we still need to add an event handler to the Button, so, when clicked, it reads the farenheit temperature, converts it, and displays the converter value; we can do that by adding the following to our makeMainView, somewhere after defining the button:
+
+```java
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				double f=Double.valueOf(faren.getText().toString());
+				double c=(f-32)/1.8;
+				celsius.setText(new Double(c).toString());
+			}		
+		});
+```
+
+##Extra Challenges:
+1. Change the layout, so the label for the Farenheit temperature (at the very top) is to the left of the corresponding `EditText` (you need to create a horizontal layout). Add a label displaying 'celsius' and put it to the left of the celsius label.
+2. blah blah blah
