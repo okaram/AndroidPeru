@@ -1,6 +1,6 @@
 #A simple Android Application
 
-We will develop a very simple android application, as illustrated below:
+In [Our First Application](firstApp.md "blah blah")We've just developped a very simple android application, as illustrated below:
 ![screenshot](converter.png)
 
 You have one text field, where you write a temperature in Farenheit, and a button for converting it; when pressing the button, the temperature in celsius degrees will be displayed.
