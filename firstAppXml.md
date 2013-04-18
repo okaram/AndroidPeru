@@ -28,7 +28,58 @@ The XML looks like this:
 
 </RelativeLayout>
 ```
-We have a `RelativeLayout` (layouts are widgets that contain and lay-out other widgets), which contains one `TextView`
+We have a `RelativeLayout` (layouts are widgets that contain and lay-out other widgets), which contains one `TextView`. In our previous tutorial, we used a LinearLayout, so let's change the RelativeLayour to a LinearLayout (you still need to leave the two xmlns declarations, that's how XML works); the android:padding arguments are not applicable to the LinearLayout, but we need to add a vertical orientation, leaving us with the following start of our XML
+
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+```
+
+Now, we need to add all our widgets to this xml file; to allow us to get to the widgets in code, we want to give them a meaningful android:id, if we're going to use them in code. Our full XML file (including the LinearLayout above) would be:
+
+```xml
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farenheit" 
+    />
+
+    <EditText
+        android:id="@+id/faren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="12" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/celsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>
+```
+
+
 
 
 
