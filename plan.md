@@ -7,6 +7,3 @@
 * [Your first XML layout](firstAppXml.md)
 
 ##Day 2 (Wed May 6) - More programming, styling, more widgets
-* stuf
-* * more stuff
-	* other
