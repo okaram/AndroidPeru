@@ -110,9 +110,6 @@ Notice we need to do `setContentView` before we can do `findViewById`; also, not
 
 
 
-
-
-
 ##Extra Challenges:
-1. Change the layout, so the label for the Farenheit temperature (at the very top) is to the left of the corresponding `EditText` (you need to create a horizontal layout). Add a label (TextView) displaying 'celsius' and put it to the left of the celsius label.
+1. Change the xml layout, so the label for the Farenheit temperature (at the very top) is to the left of the corresponding `EditText` (you need to create a horizontal layout). Add a label (TextView) displaying 'celsius' and put it to the left of the celsius label.
 2. Convert the `TextView` that displays the temperature in celsius into an `EditText` so it is now editable, and add another button that converts from celsius into farenheit (may want to change the label of the first button also, since 'convert' is now not so meaningful :)
