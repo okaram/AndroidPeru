@@ -7,3 +7,6 @@
 * [Your first XML layout](firstAppXml.md)
 
 ##Day 2 (Wed May 6) - More programming, styling, more widgets
+* [bonus - logging and toasts](logging.md)
+* Some android widgets
+

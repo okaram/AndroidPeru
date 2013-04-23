@@ -13,7 +13,7 @@ We can also use `Toast.LENGTH_LONG`
 
 ##Logging
 
-Android defines a class, `android.util.Log`, with several methods, for logging to the IDE/debugger; the methods usually take two strings, a tag and a messagge; there are several methods, `d` for debug messages, `i` for info messages etc (in eclipse, you can filter by tag or priority)
+Android defines a class, [`android.util.Log`](http://developer.android.com/reference/android/util/Log.html), with several methods, for logging to the IDE/debugger; the methods usually take two strings, a tag and a messagge; there are several methods, `d` for debug messages, `i` for info messages etc (in eclipse, you can filter by tag or priority)
 
 ##Challenges
 1. Change your converter (xml) application, so that it logs the celsius and farenheit temperatures
