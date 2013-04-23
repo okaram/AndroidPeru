@@ -79,7 +79,34 @@ Now, we need to add all our widgets to this xml file; to allow us to get to the 
 </LinearLayout>
 ```
 
+The android build process does magic with our XML layouts; one piece of magic is to generate a class, called R (not a meaningful name, but easy to write), which will contain many constants, corresponding to our IDs (and a few other items).
 
+When our xml contains id's like `android:id="@+id/celsius"`, (the + means to create a new id), the build process will generate a constant, R.id.celsius, which corresponds to the value assigned to that id.
+
+In our `MainActivity.onCreate` method, we can use the `findViewById` method to find the view corresponding to that id. We would still need to create our class variables, and assign them in our onCreate method.
+
+For example, for our code, we can create two instance variables, `TextView faren,celsius;`, and our onCreate would look like:
+
+```
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		faren=(TextView) findViewById(R.id.faren);
+		celsius=(TextView) findViewById(R.id.celsius);
+		Button b=(Button)findViewById(R.id.convertBtn);
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				double f=Double.valueOf(faren.getText().toString());
+				double c=(f-32)/1.8;
+				celsius.setText(Double.valueOf(c).toString());
+			}		
+		});
+	}
+```
+
+Notice we need to do `setContentView` before we can do `findViewById`; also, notice the build process also creates a constant for our layouts, so we can refer to `R.layout.activity_main`.
 
 
 
