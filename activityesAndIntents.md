@@ -19,7 +19,6 @@ public class MainActivity extends Activity {
 		Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show(); 
 		setContentView(R.layout.activity_main);
 	}
-
 	
 	@Override public void onStart() 
 	{
@@ -63,3 +62,21 @@ public class MainActivity extends Activity {
 		Toast.makeText(this, "onDestroy", Toast.LENGTH_LONG).show(); 
 	}
 ``` 
+
+## Using intents to start activities
+Android uses [`Intents`](http://developer.android.com/reference/android/content/Intent.html) to start activities, but 
+decouplinh the intent from a specific activity; your Application's manifest file specifies which intents it responds to, and which activity to use; also, other applications decide which intents to respond to.
+
+We can create intents for starting specific activities, and then use `startActivity` to start an activity for that intent; for example, we can use the following code, to start a browser, to google.com
+
+```
+	Intent i=new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://google.com"));
+	startActivity(i);
+```
+
+## Declaring intents for your activities
+
+
+
+
+
