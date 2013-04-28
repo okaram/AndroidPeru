@@ -14,6 +14,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.d(tag,"OnCreate happened");
+		Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show(); 
 		setContentView(R.layout.activity_main);
 	}
 
@@ -62,10 +64,19 @@ public class MainActivity extends Activity {
 	
 	public void openUrl(View v)
 	{
+		Log.d(tag,"opening url");
 		Intent i=new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://google.com"));
 		startActivity(i);
 	}
 	
+	public void startSecondActivity(View v)
+	{
+		Log.d(tag,"starting second activity");
+		//Intent i=new Intent("com.example.ACTIVITY2"); // look at the intent filter
+		Intent i=new Intent(this,SecondActivity.class);
+		startActivity(i);
+	}
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

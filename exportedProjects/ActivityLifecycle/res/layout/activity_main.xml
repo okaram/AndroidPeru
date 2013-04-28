@@ -24,4 +24,15 @@
         android:text="Browse"
         android:onClick="openUrl" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="65dp"
+        android:text="Second Activity"
+        android:onClick="startSecondActivity" />
+    
 </RelativeLayout>
