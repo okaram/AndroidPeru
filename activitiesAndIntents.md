@@ -76,6 +76,50 @@ We can create intents for starting specific activities, and then use `startActiv
 
 ## Declaring intents for your activities
 
+When you create an activity in your application, you can define one or more intent filters for it; the activity would respond to intents that match any of its filters.
+
+For example, if you look at your project manifest file, for a simple project, you'll see something like this:
+```
+        <activity
+            android:name="com.example.activitylifecycle.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+```
+It declares your activity (the name is the class name), specifies its label (which will be its title), and one intent filter; the LAUNCHER category specifies it should appear in the Android Launcher.
+
+You can create more than one activity in your application, and specifies intents for it; For example, if you create an activity (mine is called SecondActivity), it will be added to the manifest; and then you can add an intent filter, as follows:
+```
+	<activity
+        android:name="com.example.activitylifecycle.SecondActivity"
+        android:label="@string/title_activity_second"
+        <intent-filter>
+            <action android:name="com.example.ACTIVITY2" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+``` 
+
+Now, given that intent filter, you can then create an intent and launch the activity with:
+```
+	Intent i=new Intent("com.example.ACTIVITY2"); // look at the intent filter
+	startActivity(i);
+```
+
+Notice even if you don't declare an intent filter, you can always start an activity by speficying the class directly, as in the following example
+
+```
+	Intent i=new Intent(this,SecondActivity.class);
+	startActivity(i);
+```
+
+## Challenges
+1. Open the ActivityLifecycle project, run it, and look at the logs for all the events; what happens when you press the buttons ?
+2. Add another button, to open the dialer and call a phone number of your choice.
+3. Add another activity, and a button to open it.
 
 
 
