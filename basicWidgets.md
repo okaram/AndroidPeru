@@ -13,19 +13,34 @@ The most used Android widgets are:
 
 
 ##Basic view parameters
+* all widgets inherit from `View`
 * can set background color (or image) with `android:background`
-* need to specify `android:width` and `android:height`
+* Use android:id to give your widget a name (accessed as R.id....)
+* need to specify `android:layout_width` and `android:layout_height` (can do other layout paraemeters)
 	* `match_parent` (was fill_parent)
 	* `wrap_content`
 	* or specific widht in pixels, dp, %
 * every view has android:onClick
 
+```
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/all_blue" 
+        android:background="#00bb99"
+        android:onClick="whacked"
+	/>
+```
 ##TextView and EditText
 * has android:text, `getText`,`setText`  
 	* notice text is NOT a string, but a CharSequence (which is a superclass of string), can use toString to convert to a string.
 	* in xml, eclipse will complain if you use an actual string, since it wants you to use a reference (for internalization etc); we'll talk about those values later.
 * `EditText` is editable
-	* multiline
+* `android:inputType`
 * can use styles
 
 
