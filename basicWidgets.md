@@ -13,10 +13,10 @@ The most used Android widgets are:
 
 
 ##Basic view parameters
-* can set background color (or image) with android:background
-* need to specify android:width and android:height
-	* match_parent (was fill_parent)
-	* wrap_content
+* can set background color (or image) with `android:background`
+* need to specify `android:width` and `android:height`
+	* `match_parent` (was fill_parent)
+	* `wrap_content`
 	* or specific widht in pixels, dp, %
 * every view has android:onClick
 
@@ -31,4 +31,4 @@ The most used Android widgets are:
 
 ##Challenges
 1. For an application of your choice, create a form, using as many different widgets as it makes sense.
-2. See the Calculator Challenge.
+2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc
