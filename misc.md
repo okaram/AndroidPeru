@@ -28,3 +28,6 @@ public void cellClicked(View v)
 ###More than one tag
 There are also versions of setTag and getTag that take an extra numeric parameter, so you can set several different tags, and retrieve them with their id.
 
+##Inner classes
+
+###Special notation for inner classes

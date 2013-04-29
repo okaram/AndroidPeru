@@ -7,13 +7,16 @@ The most used Android widgets are:
 * [`EditText`](http://developer.android.com/reference/android/widget/EditText.html), which represents an editable text field. This is a subclass of TextView.
 * [`Button`](http://developer.android.com/reference/android/widget/Button.html), which represents a simple button; since this has text, it is a subclass of TextView.
 * [`ImageButton`](http://developer.android.com/reference/android/widget/ImageButton.html), button with an image instead of text.
-
-* [`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html), checkbox, on/off.
-* [`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), same as a checkbox, different image (on/off).
-* [`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html), button with an image instead of text.
+* [`CompoundButton`](http://developer.android.com/reference/android/widget/CompoundButton.html), buttons that can be checked or unchecked. Android provides 4 subclasses,[`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),[`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
+[`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
+* [`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time.
 
 
 ##Basic view parameters
+* can set background color (or image) with android:background
+* need to specify android:width and android:height
+	* match\_parent (was fill\_parent)
+	* wrap_content
 
 ##TextView and EditText
 * has android:text, `getText`,`setText`  
