@@ -1,6 +1,6 @@
 #Basic Android Widgets
 
-Android defines many U widgets, organized in a hierarchy; it helps to look at some of them, and at the basic hierarchy; notice that many attributes can be specified in xml and also in code; usually the mapping is easy.
+Android defines many UI widgets, organized in a hierarchy; it helps to look at some of them, and at the basic hierarchy; notice that many attributes can be specified in xml and also in code; usually the mapping is easy.
 
 The most used Android widgets are:
 * [`TextView`](http://developer.android.com/reference/android/widget/TextView.html), which represents a label, or any widget with text attached; this is the superclass of buttons and editviews.
@@ -44,9 +44,9 @@ The most used Android widgets are:
 * can use styles
 
 ##Images
-* ImageView
-* ImageButton
-* Gallery
+* [`ImageView`](http://developer.android.com/reference/android/widget/ImageView.html), which allows you to display an image 
+* [`ImageButton`](http://developer.android.com/reference/android/widget/ImageButton.html), which is a button that displays an image instead of text.
+* [`Gallery`](http://developer.android.com/reference/android/widget/Gallery.html), which is now deprecated, but widely used :) it displays a bunch of images and allows you to browse through them
 
 ##Other widgets
 

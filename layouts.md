@@ -1,4 +1,12 @@
-#Basic Android Widgets
+#Android Layouts
+
+We need ways to combine several widgets on the screen; we do this through `ViewGroup`s, (but we usually call them `Layout`s :). Each layout is actually a widget, but instead of displaying its own info, it lays out and shows the other widgets.
+
+Some of the common layouts include:
+
+* [`LinearLayout`](http://developer.android.com/reference/android/widget/LinearLayout.html)
+* [`FrameLayout`](http://developer.android.com/reference/android/widget/FrameLayout.html)
+
 
 Android defines many U widgets, organized in a hierarchy; it helps to look at some of them, and at the basic hierarchy; notice that many attributes can be specified in xml and also in code; usually the mapping is easy.
 
