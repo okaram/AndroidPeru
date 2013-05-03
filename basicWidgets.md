@@ -80,10 +80,10 @@ The most used Android widgets are:
 
 ##Compound Buttons (Checkboxes)
 * android supports several kinds of compound buttons; 		
-	*[`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),
-	*[`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
-	*[`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
-	*[`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time.
+	* [`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),
+	* [`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
+	* [`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
+	* [`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time.
 
 ##Images
 * [`ImageView`](http://developer.android.com/reference/android/widget/ImageView.html), which allows you to display an image 
