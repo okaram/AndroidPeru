@@ -40,8 +40,13 @@ The most used Android widgets are:
 	* notice text is NOT a string, but a CharSequence (which is a superclass of string), can use toString to convert to a string.
 	* in xml, eclipse will complain if you use an actual string, since it wants you to use a reference (for internalization etc); we'll talk about those values later.
 * `EditText` is editable
-* `android:inputType`
-* can use styles
+* `android:inputType` controls which characters get accepted (and which keyboard gets displayed)
+* can use styles etc `android:textAppearance="?android:attr/textAppearanceLarge"`
+* can make multiline `android:inputType="textMultiLine"`
+
+```
+
+```
 
 ##Images
 * [`ImageView`](http://developer.android.com/reference/android/widget/ImageView.html), which allows you to display an image 
