@@ -1,7 +1,12 @@
 AndroidPeru
 ===========
 
-Materials for the android course in Peru
+Materials for the android course in Peru.
+
+## Reference materials (from Commonsware.com), all free, you might want to buy the newest edition, which is not free:
+* [The Busy Coder's Guide to Android Development (v3.6)](http://commonsware.com/Android/Android_3-6-CC.pdf)
+* [The Busy Coder's Guide to Advanced Android Development](http://commonsware.com/AdvAndroid/AdvAndroid-2_0-CC.pdf)
+* [Android Programming Tutorials](http://commonsware.com/AndTutorials/AndTutorials-3_9-CC.pdf)
 
 Current plan:
 
@@ -19,8 +24,8 @@ Current plan:
 * [Basic Layouts](layouts.md)
 
 ## Day 3 - Thursday
-* Advanced widgets
-* Menus
+* [Advanced widgets](advancedWidgets.md)
+* [Menus](menus.md)
 * Handling rotation
 * Resources and values
 
