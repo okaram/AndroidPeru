@@ -127,6 +127,12 @@ The most used Android widgets are:
 * [`Gallery`](http://developer.android.com/reference/android/widget/Gallery.html), which is now deprecated, but widely used :) it displays a bunch of images and allows you to browse through them
 
 ##Other widgets
+* [`DatePicker`](http://developer.android.com/reference/android/widget/DatePicker.html)
+* [`TimePicker`](http://developer.android.com/reference/android/widget/TimePicker.html)
+* [`Chronometer`](http://developer.android.com/reference/android/widget/Chronometer.html), and [`AnalogClock`](http://developer.android.com/reference/android/widget/AnalogClock.html)
+* [`ProgressBar`]((http://developer.android.com/reference/android/widget/ProgressBar.html) can be a bar or a circle
+* [`SeekBar`]((http://developer.android.com/reference/android/widget/SeekBar.html) which extends ProgressBar, can use getProgress to read its value
+
 
 ##Challenges
 1. Play with the Widgets project; what things can you do ? 
