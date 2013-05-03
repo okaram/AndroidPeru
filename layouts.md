@@ -10,6 +10,7 @@ Some of the common layouts include:
 	
 
 
+
 ##Challenges
 1. For an application of your choice, create a form, using as many different widgets as it makes sense.
 2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc
