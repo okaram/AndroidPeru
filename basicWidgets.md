@@ -83,7 +83,43 @@ The most used Android widgets are:
 	* [`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),
 	* [`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
 	* [`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
-	* [`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time.
+	* [`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time).
+
+* they all support isChecked method
+```
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxClicked"
+        android:text="CheckBox" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkboxClicked"
+        android:textOff="No"
+        android:textOn="Yes" />
+```
+* RadioButtons need to be embeded in a radio group; you can later ask if checked, or ask the group for the id of the button which is checked
+
+```
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Uno" />
+	...
+	</RadioGroup>
+```
 
 ##Images
 * [`ImageView`](http://developer.android.com/reference/android/widget/ImageView.html), which allows you to display an image 
