@@ -79,7 +79,7 @@ The most used Android widgets are:
 ```
 
 ##Compound Buttons (Checkboxes)
-* android supports several kinds of compound buttons; 		
+* android supports several kinds of compound buttons.		
 	* [`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),
 	* [`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
 	* [`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
