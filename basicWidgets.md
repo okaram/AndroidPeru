@@ -39,14 +39,51 @@ The most used Android widgets are:
 * has android:text, `getText`,`setText`  
 	* notice text is NOT a string, but a CharSequence (which is a superclass of string), can use toString to convert to a string.
 	* in xml, eclipse will complain if you use an actual string, since it wants you to use a reference (for internalization etc); we'll talk about those values later.
+```
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+```
 * `EditText` is editable
 * `android:inputType` controls which characters get accepted (and which keyboard gets displayed)
 * can use styles etc `android:textAppearance="?android:attr/textAppearanceLarge"`
 * can make multiline `android:inputType="textMultiLine"`
 
 ```
-
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"         
+        android:background="#aa5555"
+        android:maxLines="10"
+        android:minLines="5"
+        android:inputType="textMultiLine" >
+        <requestFocus />
+    </EditText>
 ```
+## Buttons
+* buttons are TextViews, so all of their attributes work for them
+* we normally use their onClick (although every view has onclick !)
+* buttons can have text and a pic with their `android:drawableLeft` attribute
+* we can use their `android:onClick` attribute, or set onClickListener in code
+```
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Screen Activity" 
+        android:onClick="showFullScreenForm"
+        android:drawableLeft="@drawable/whack"/>
+```
+
+##Compound Buttons (Checkboxes)
+* android supports several kinds of compound buttons; 		
+	*[`Checkbox`](http://developer.android.com/reference/android/widget/CheckBox.html),
+	*[`ToggleButton`](http://developer.android.com/reference/android/widget/ToggleButton.html), 
+	*[`Switch`](http://developer.android.com/reference/android/widget/Switch.html), and
+	*[`RadioButton`](http://developer.android.com/reference/android/widget/RadioButton.html) (RadioButtons belong to a [`RadioGroup`](http://developer.android.com/reference/android/widget/RadioGroup.html), and only one is selected at any given time.
 
 ##Images
 * [`ImageView`](http://developer.android.com/reference/android/widget/ImageView.html), which allows you to display an image 
@@ -56,5 +93,6 @@ The most used Android widgets are:
 ##Other widgets
 
 ##Challenges
-1. For an application of your choice, create a form, using as many different widgets as it makes sense.
-2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc
+1. Play with the Widgets project; what things can you do ? 
+2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc. Use radio buttons to decide what to convert from/to
+3. For an application of your choice, create a form, using as many different widgets as it makes sense.
