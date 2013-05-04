@@ -51,4 +51,5 @@ Some of the common layouts include:
 
 ##Challenges
 1. Combining LinearLayouts create a layout for a calculator, with a TextView at the top, and the corresponding buttons.
-2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc
+2. Create a similar layout, but now with a TableLayout
+3. Look at the form you created previously; can you do it with a RelativeLayout ?

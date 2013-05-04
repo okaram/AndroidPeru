@@ -24,7 +24,7 @@ Current plan:
 * [Basic Layouts](layouts.md)
 
 ## Day 3 - Thursday
-* [Advanced widgets](advancedWidgets.md)
+* [Advanced layouts](advancedLayouts.md)
 * [Menus](menus.md)
 * Handling rotation
 * Resources and values
