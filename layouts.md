@@ -11,7 +11,7 @@ Some of the common layouts include:
 	* [`ViewFlipper`](http://developer.android.com/reference/android/widget/ViewFlipper), which switches among views, and can even be set to flip at regular intervals (there's also ViewAnimator,ViewSwitcher,ImageSwitcher, TextSwitcher)
 * [`RelativeLayout`](http://developer.android.com/reference/android/widget/RelativeLayout.html), which allows you to draw its children relative to each other
 * [`TableLayout`](http://developer.android.com/reference/android/widget/TableLayout.html), which allows you to define a table, each row being a [`TableRow`](http://developer.android.com/reference/android/widget/TableRow.html)
-* [`GridLayout`](http://developer.android.com/reference/android/widget/GridLayout.html), which allows you to define a (infinite-ish) grid
+* [`GridLayout`](http://developer.android.com/reference/android/widget/GridLayout.html), which allows you to define an (infinite-ish) grid; can also use an adapter, which we'll cover later.
 
 
 ##Examples
@@ -52,4 +52,4 @@ Some of the common layouts include:
 ##Challenges
 1. Combining LinearLayouts create a layout for a calculator, with a TextView at the top, and the corresponding buttons.
 2. Create a similar layout, but now with a TableLayout
-3. Look at the form you created previously; can you do it with a RelativeLayout ?
+3. Look at the form you created previously (for the widgets); can you do it with a RelativeLayout ?
