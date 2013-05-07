@@ -11,7 +11,7 @@ Materials for the android course in Peru.
 Current plan:
 
 ## Day 1 - Tuesday
-* [Introduction to mobile development](http://prezi.com/rlal834rjnzj/android/)
+* [Introduction to mobile development](http://prezi.com/rlal834rjnzj/android/?auth_key=cc059e3e28d6ea9ae889dd5a1dc7382e7e0009ca&kw=view-rlal834rjnzj&rc=ref-11036559)
 * [Introduction to Android development](https://docs.google.com/presentation/d/1jjGpr9BX2Y6Xse3dS_HQDx2VjmalNFakhFxuygCy)
 * [Installing the SDK](http://developer.android.com)
 * [Your first application](firstApp.md)
