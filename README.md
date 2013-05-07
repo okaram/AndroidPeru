@@ -12,7 +12,7 @@ Current plan:
 
 ## Day 1 - Tuesday
 * [Introduction to mobile development](http://prezi.com/rlal834rjnzj/android/?auth_key=cc059e3e28d6ea9ae889dd5a1dc7382e7e0009ca&kw=view-rlal834rjnzj&rc=ref-11036559)
-* [Introduction to Android development](https://docs.google.com/presentation/d/1jjGpr9BX2Y6Xse3dS_HQDx2VjmalNFakhFxuygCy)
+* [Introduction to Android development](https://docs.google.com/presentation/d/1jjGpr9BX2Y6Xse3dS_HQDx2VjmalNFakhFxuygCykR8/edit?usp=sharing)
 * [Installing the SDK](http://developer.android.com)
 * [Your first application](firstApp.md)
 * [XML layouts](firstAppXml.md)
