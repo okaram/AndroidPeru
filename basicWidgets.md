@@ -135,6 +135,5 @@ The most used Android widgets are:
 
 
 ##Challenges
-1. Play with the Widgets project; what things can you do ? 
-2. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc. Use radio buttons to decide what to convert from/to
-3. For an application of your choice, create a form, using as many different widgets as it makes sense.
+1. Create an app that converts to/from decimal, binary, octal, hex. Java's Integer class has parseInt that takes a radix, and also toOctalString etc. Use radio buttons to decide what to convert from/to
+2. For an application of your choice, create a form, using as many different widgets as it makes sense.
