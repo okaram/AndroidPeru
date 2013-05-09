@@ -73,6 +73,7 @@ The most used Android widgets are:
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        
         android:text="Full Screen Activity" 
         android:onClick="showFullScreenForm"
         android:drawableLeft="@drawable/whack"/>
