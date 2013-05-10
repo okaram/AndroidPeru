@@ -30,11 +30,11 @@ Current plan:
 * [Menus](menus.md)
 
 ### Tarea
-* Usando el ListView y definiendo su subclase de ArrayAdapter, crear una lista de las provincias de Arequipa con sus Capitales; 
-	* extra 1 - a&ntilde;adir la bandera de las provincias
+* Usando el ListView y definiendo su subclase de ArrayAdapter, crear una lista de los distritos de Arequipa con sus Capitales; (opcional usar Departamentos de Peru)
+	* extra 1 - a&ntilde;adir la bandera/escudo de las provincias
 	* extra 2 - leer los valores de un recurso XML
 	* extra 3 - enlace que te lleve a wikipedia para la provincia
-	
+	* extra 4 - hacer que las filas alternen colores
 ## Day 5 - Monday
 * Animations
 * Styles
