@@ -25,3 +25,5 @@ Ademas de los recursos mencionados, podemos guardar valores basicos (ints, bools
 En XML referenciamos con @color/xxx (dependiendo del tipo) y en codigo java con R.color.xxx (tambien, dependiendo del tipo)
 
 ## Adaptando recursos
+
+Podemos adaptar recursos a ciertos tama&ntilde;os de pantalla etc, renombrando el archivo o folder; las opciones de nombres estan definidas en la [documentacion de android](http://developer.android.com/guide/topics/resources/providing-resources.html#AlternativeResources)
