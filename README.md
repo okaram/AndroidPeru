@@ -23,13 +23,13 @@ Current plan:
 * [Basic Widgets](basicWidgets.md)
 * [Basic Layouts](layouts.md)
 
-## Day 3 - Thursday
-* Handling rotation
-* Resources and values
+## Day 4 - Friday
+* [Handling rotation](rotation.md)
+* [Resources and values](resourcesAndValues.md)
 * [Advanced layouts](advancedLayouts.md)
 * [Menus](menus.md)
 
-## Day 4 - Friday
+## Day 5 - Monday
 * Animations
 * Styles
 * Handling screen sizes
