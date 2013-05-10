@@ -35,6 +35,9 @@ Current plan:
 	* extra 2 - leer los valores de un recurso XML
 	* extra 3 - enlace que te lleve a wikipedia para la provincia
 	* extra 4 - hacer que las filas alternen colores
+	
+	
+	
 ## Day 5 - Monday
 * Animations
 * Styles
