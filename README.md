@@ -49,3 +49,7 @@ Current plan:
 ## Day 8
 
 ## Day 9
+
+
+## Otros Recursos
+[http://www.vogella.com/android.html](http://www.vogella.com/android.html)

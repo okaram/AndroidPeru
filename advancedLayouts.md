@@ -6,8 +6,8 @@ Since Android is designed for 'slow' devices, this waste is not good; instead, A
 
 ## The Widgets
 * [`Spinner`](http://developer.android.com/reference/android/widget/Spinner.html) [(tutorial)](http://developer.android.com/reference/android/widget/Spinner.html) which has a list of choices (strings), displays the current one and displays a menu of choices
-* [`ListView`]()
-* [`GridView`]()
+* [`ListView`](http://developer.android.com/reference/android/widget/ListView.html) and [guide](http://developer.android.com/guide/topics/ui/layout/listview.html)
+* [`GridView`](http://developer.android.com/reference/android/widget/GridView.html)  and [guide](http://developer.android.com/guide/topics/ui/layout/gridview.html)
 
 
 ##Challenges
