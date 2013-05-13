@@ -39,11 +39,9 @@ Current plan:
 	
 	
 ## Day 5 - Monday
-* Animations
-* Styles
-* Handling screen sizes
-* Honeycomb UI , Action bars etc
+* [Styles](stylesAndThemes.md)
 * Fragments
+* Animations
 
 ## Day 5
 * Files and Persistence

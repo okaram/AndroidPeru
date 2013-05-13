@@ -34,3 +34,8 @@ We can apply a style to a widget, with the style property, as follows:
     style="@style/gharish"
 ```
 
+## Applying Themes
+
+We can apply a theme to an application or activity using the `android:theme` property (the application and the activity are defined in the AndroidManifest.xml file).
+
+For more info, see [Android guide for styles and themes](http://developer.android.com/guide/topics/ui/themes.html)
