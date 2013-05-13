@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdaptersWithFragmentsMainActivity" >
+
+    <fragment 
+        android:name="com.example.adapterviews.PeopleListFragment"
+        android:id="@+id/frag1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        />
+     
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00aa66"
+    />
+    <fragment 
+        android:name="com.example.adapterviews.PersonEditFragment"
+        android:id="@+id/frag2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        />
+    
+</LinearLayout>

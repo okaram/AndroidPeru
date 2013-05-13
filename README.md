@@ -40,10 +40,10 @@ Current plan:
 	
 ## Day 5 - Monday
 * [Styles](stylesAndThemes.md)
-* Fragments
-* Animations
+* [Fragments](fragments.md)
+* [Animations](animation.md)
 
-## Day 5
+## Day 6, Tuesday
 * Files and Persistence
 * SQLite and databases
 * Threads
