@@ -9,7 +9,16 @@
 ## Files inside your apk
 
 * `res/raw` we can store files in the res/raw folder; we can then use getResources().openRawResource and pass it a number (usually from R.raw....). Notice we can only get an InputStream, so this files are read-only.
+
+For example, if we have a file called the\_raw\_file inside res/raw, we can get access to it with
+```
+		InputStream in=getResources().openRawResource(R.raw.the_raw_file);
+```
+
 * __assets__ getAssets().open()
+```
+			InputStream in=getAssets().open("text.txt");
+```
 
 ## local app storage
 

@@ -44,11 +44,11 @@ Current plan:
 * [Animations](animation.md)
 
 ## Day 6, Tuesday
-* Files and Persistence
-* SQLite and databases
+* [Files and Persistence](files.md)
+* [SQLite and databases](sqlite.md)
 * Threads
 
-## Day 6
+## Day 7, Wednesday
 * REST and services
 
 ## Day 7
@@ -59,4 +59,6 @@ Current plan:
 
 
 ## Otros Recursos
-[http://www.vogella.com/android.html](http://www.vogella.com/android.html)
+* [http://www.vogella.com/android.html](http://www.vogella.com/android.html)
+* [Miscellaneous notes](misc.md)
+* [Notes on git](git.md)
