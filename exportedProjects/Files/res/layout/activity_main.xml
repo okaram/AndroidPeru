@@ -10,12 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <EditText
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" 
-        android:autoLink="web"/>
+	/>
 
     <Button
         android:id="@+id/button1"
@@ -24,10 +24,24 @@
         android:text="Read Raw"
         android:onClick="readRaw" />
     <Button
-        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Read Asset"
         android:onClick="readAsset" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write Local"
+        android:onClick="writeLocal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Local"
+        android:onClick="readLocal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Local"
+        android:onClick="readLocalFolder" />
     
 </LinearLayout>
