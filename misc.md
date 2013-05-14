@@ -31,3 +31,6 @@ There are also versions of setTag and getTag that take an extra numeric paramete
 ##Inner classes
 
 ###Special notation for inner classes
+
+## android:autolink
+The android:autoLink property of a textview specifies whether urls in its contents should be automatically converted to clickable links. 
