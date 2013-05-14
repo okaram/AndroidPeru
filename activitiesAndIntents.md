@@ -116,6 +116,8 @@ Notice even if you don't declare an intent filter, you can always start an activ
 	startActivity(i);
 ```
 
+## Sending and Receiving values
+You can send values to an activity when starting it, by passing an extra `Bundle` to the startActivity method
 ## Challenges
 1. Open the ActivityLifecycle project, run it, and look at the logs for all the events; what happens when you press the buttons ?
 2. Add another button, to open the dialer and call a phone number of your choice.

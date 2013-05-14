@@ -1,0 +1,9 @@
+This file goes in assets
+
+you read it with getAssets().open()
+
+blah
+
+blah
+
+blah

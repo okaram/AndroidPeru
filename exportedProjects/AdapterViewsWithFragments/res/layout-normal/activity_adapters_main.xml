@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#aa0000"
+    tools:context=".AdaptersWithFragmentsMainActivity" >
+
+    <fragment 
+        android:name="com.example.adapterviews.PeopleListFragment"
+        android:id="@+id/frag1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>

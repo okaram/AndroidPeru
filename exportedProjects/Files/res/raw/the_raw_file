@@ -1,0 +1,4 @@
+This is the file in res/raw.
+
+Eclipse will create a R.raw.xxx constant,
+ and we can read the file with getResources().openRawResource()
