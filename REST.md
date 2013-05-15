@@ -33,4 +33,13 @@
 ## Http Connections in Android
 * Apache's HttpClient
 * HttpUrlConnection
+* We need to add internet permission
+```
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+```
+* your machine is 10.0.2.2 from the emulator
+
+## Json in Java
+* JSONObject
+
 
