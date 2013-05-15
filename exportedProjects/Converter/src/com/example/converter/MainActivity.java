@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		faren=(EditText)findViewById(R.id.faren);
-		celsius=(EditText)findViewById(R.id.celsius);
+		celsius=(TextView)findViewById(R.id.celsius);
 		Button b=(Button)findViewById(R.id.convertBtn);
 		b.setOnClickListener(new OnClickListener() {
 			@Override
