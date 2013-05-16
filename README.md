@@ -1,6 +1,9 @@
 AndroidPeru
 ===========
 
+# REPOSITORIOS
+Por favor, llenar la [forma de repositorios](https://docs.google.com/forms/d/1DX_8bmTzsm9AU3Z8WlTNiIoDLzmH4VZL_g9g61TqIrI/viewform)
+
 Materials for the android course in Peru.
 
 ## Reference materials (from Commonsware.com), all free, you might want to buy the newest edition, which is not free:
@@ -51,11 +54,10 @@ Current plan:
 ## Day 7, Wednesday
 * REST and services
 
-## Day 7
+## Day 8, Thursday (miscelaneos)
 
-## Day 8
 
-## Day 9
+## Day 9 - Proyectos
 
 
 ## Otros Recursos
