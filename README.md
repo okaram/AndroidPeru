@@ -58,7 +58,10 @@ Current plan:
 
 
 ## Day 9 - Proyectos
-
+Tienen que entregar un proyecto final, que puede ser:
+* Un juego, ya sea de tablero con layouts normales, o tipo videojuego
+* Una aplicacion de bases de datos, que tenga al menos una tabla, y liste los elementos, permitiendo a&ntilde;adir, cambiar y borrar
+* Si quieren hacer otra cosa, consulten si es adecuado.
 
 ## Otros Recursos
 * [http://www.vogella.com/android.html](http://www.vogella.com/android.html)
